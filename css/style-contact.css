@@ -1,0 +1,73 @@
+html {
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    font-size: 1rem;
+    position: absolute;
+    display: inline-block;
+    color: black;
+    letter-spacing: 0.08rem;
+}
+
+
+
+/* Classes */
+
+.greeting {
+    position: relative;
+    display: block;
+    padding-left: 2rem;
+    top: 10rem;
+    left: 15rem;
+    height: 200px;
+    width: 40%;
+    /* background-color: wheat; */
+    float: left;
+}
+
+.box-form {
+    top: 10rem;
+    /* background-color: aquamarine; */
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    width: 40%;
+    left: 15rem;
+}
+
+.form {
+    left: 5rem;
+    top: 30%;
+    position: absolute;
+    display: block;
+    float: right;
+}
+.email,
+.message {
+    display: inline-block;
+}
+
+.getintouch {
+    font-size: 6.2rem;
+    width: 70%;
+    color: aquamarine;
+    letter-spacing: 0.01rem;
+    position: absolute;
+    display: inline-block;
+}
+
+/* Chainning */
+
+input.email,
+input.message {
+    margin-bottom: 1rem;
+}
+
+label.email,
+label.message
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
